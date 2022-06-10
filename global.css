@@ -1,18 +1,36 @@
-@import "../styles/layout.css";
-
+@import "./styles/layout.css";
+@import "./styles/nav.css";
+@import "./styles/hover.css";
+ 
 body,
 body * {
     margin: 0;
     padding: 0;
-    vertical-align: top;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    border: 2px solid black;
+    overflow: hidden;
+}
+main{
+    border: 2px solid black;
+    overflow: hidden;
+
+}
+footer{
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
 }
 
 :root {
-    background-color: #F7F6FF;
+    background-color: #E5E5E5;
     
 }
