@@ -13,21 +13,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     height: 100%;
+    position: fixed;
 }
 
 header{
     border: 2px solid black;
     overflow: hidden;
+    height: 25%;
 }
 main{
     border: 2px solid black;
     overflow: hidden;
+    height: 50%;
 
 }
 footer{
     border: 2px solid black;
     text-align: center;
     align-items: center;
+    height: 25%;
 }
 
 :root {
