@@ -4,12 +4,17 @@
 .menu:hover{
     background-color: white;
 }
+.menu:hover .icons{
+    filter: invert(2);
+}
 ul:hover .text{
     color: #c4c4c4;
     cursor: pointer;
     display: inline;
+
 }
 ul:hover{
     width: 17%;
     transition: 2s;    
 } 
+
