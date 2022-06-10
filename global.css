@@ -27,9 +27,27 @@ main{
 
 }
 footer{
-    text-align: center;
-    align-items: center;
     height: 25%;
+    position: relative;
+}
+footer .bit{
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    width:30%; 
+    border-radius: 10px;
+    border: 2px solid #02577A;
+   
+}
+footer p{
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+    color: #02577A;
 }
 
 :root {
