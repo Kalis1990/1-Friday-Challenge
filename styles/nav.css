@@ -16,11 +16,26 @@
     align-items: center;
 }
 
-hr{
+.lane{
     width:128px; 
     text-align:left; 
     border: 2px solid #c4c4c4;
     border-radius: 20px
+}
+footer .bit{
+    position: absolute;
+    top: 88%;
+    left: 48%;
+    width:250px; 
+    border-radius: 10px;
+    border: 2px solid #02577A;
+   
+}
+footer p{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    color: #02577A;
 }
 
 ul{
@@ -41,7 +56,7 @@ ul{
     line-height: 20px;
     padding: 10px 30px;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 25px 0px 0px 25px;
 
 }
 
@@ -51,12 +66,13 @@ nav{
     /* display: grid;
     grid-template-columns: repeat(1, 1fr); */
     cursor: pointer;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
-
+    position: absolute;
+    top: 20%;
+    right: 0;
 }
 /* ul:hover{
     width: 25%;
@@ -78,15 +94,6 @@ ul:hover .icons{
     
 } */
 
-/* .home,
-.calendar,
-.fe,
-.games{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 10px 40px;
-} */
 
 
     
