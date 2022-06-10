@@ -1,28 +1,15 @@
-/* 
-.main p:hover{
-    color: #02577A;  
+.menu:hover p{
+    color: #02577A;
 }
-.menu:hover
-{
-    border-radius: 30px;
-    padding: 10px 40px;
+.menu:hover{
     background-color: white;
 }
-.menu > img{
+ul:hover .text{
     color: #c4c4c4;
+    cursor: pointer;
+    display: inline;
 }
-img > .home:hover{
-    background-image: url(../assets/hover.svg);
-}
-
-ul:hover .home, ul:hover .calendar, ul:hover .fe, ul:hover .games{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    width: 10%;
-    padding: none;
-    display: none;
-
-} */
+ul:hover{
+    width: 17%;
+    transition: 2s;    
+} 

@@ -17,18 +17,16 @@ body {
 }
 
 header{
-    border: 2px solid black;
     overflow: hidden;
     height: 25%;
 }
 main{
-    border: 2px solid black;
+
     overflow: hidden;
     height: 50%;
 
 }
 footer{
-    border: 2px solid black;
     text-align: center;
     align-items: center;
     height: 25%;
