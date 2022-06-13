@@ -11,6 +11,7 @@
     color: #c4c4c4;
     cursor: pointer;
     display: none;
+    
 }
 .icons{
     align-items: center;
@@ -40,7 +41,7 @@ ul{
     gap: 20%;
     line-height: 20px;
     padding: 10px 30px;
-    border-radius: 25px 0px 0px 25px;
+    
 }
 
 

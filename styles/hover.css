@@ -3,9 +3,11 @@
 }
 .menu:hover{
     background-color: white;
+    border-radius: 25px 0 0 25px;
 }
-.menu:hover .home{
-    background-image: url(../assets/hover.svg);
+.menu:hover .icons{
+    color:#02577A;
+    filter: invert(50%);
 }
 ul:hover .text{
     color: #c4c4c4;
