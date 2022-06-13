@@ -4,8 +4,8 @@
 .menu:hover{
     background-color: white;
 }
-.menu:hover .icons{
-    filter: invert(2);
+.menu:hover .home{
+    background-image: url(../assets/hover.svg);
 }
 ul:hover .text{
     color: #c4c4c4;
@@ -14,7 +14,7 @@ ul:hover .text{
 
 }
 ul:hover{
-    width: 17%;
+    width: 200px;
     transition: 2s;    
 } 
 
