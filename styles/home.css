@@ -1,0 +1,81 @@
+header p{
+    font-weight: 500;
+    font-size: 36px;
+}
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+
+}
+.mainContent img{
+    display: block;
+    float: right;
+    
+}
+.textContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textContent p{
+    margin-top: 30px;
+    border: 2px solid #02577A;
+    border-radius: 25px;
+    padding: 30px 155px;
+}
+.hero{
+    margin: 25px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.greetings{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.clock{
+    width: 40%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.time{
+    color: #02577A;
+
+}
+.date{
+    font-size: 26px;
+    
+}
+footer .bit{
+    /* display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%; */
+    width: 30%;
+    border-radius: 10px;
+    border: 0.5px solid #02577A;
+    margin-bottom: 5px;
+   
+}
+footer p{
+    /* display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%; */
+    display: flex;
+    justify-content: center;
+    width: 346px;
+    color: #02577A;
+}

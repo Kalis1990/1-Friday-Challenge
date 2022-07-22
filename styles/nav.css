@@ -8,10 +8,12 @@
 }
  
 .text{
-    color: #c4c4c4;
+    color: var(--font-color);
     cursor: pointer;
     display: none;
-    
+}
+.text a{
+    text-decoration: none;
 }
 .icons{
     align-items: center;
@@ -20,7 +22,8 @@
 .lane{
     width:60%; 
     text-align:left; 
-    border: 2px solid #c4c4c4;
+    background-color: var(--font-color);
+    border: 2px solid var(--font-color);
     border-radius: 20px
 }
 

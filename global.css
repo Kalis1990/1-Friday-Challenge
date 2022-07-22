@@ -1,56 +1,42 @@
 @import "./styles/layout.css";
 @import "./styles/nav.css";
 @import "./styles/hover.css";
+@import "./styles/home.css";
  
 body,
 body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
-    height: 100%;
     position: fixed;
 }
-
 header{
-    overflow: hidden;
-    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 main{
 
     overflow: hidden;
-    height: 50%;
 
 }
 footer{
-    height: 25%;
-    position: relative;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-footer .bit{
-    display: inline-block;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 70%;
-    left: 50%;
-    width:30%; 
-    border-radius: 10px;
-    border: 2px solid #02577A;
-   
-}
-footer p{
-    display: inline-block;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 80%;
-    left: 50%;
-    color: #02577A;
-}
+
 
 :root {
     background-color: #E5E5E5;
-    
+    --font-color: #c4c4c4
 }

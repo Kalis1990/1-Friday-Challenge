@@ -10,9 +10,10 @@
     filter: invert(50%);
 }
 ul:hover .text{
-    color: #c4c4c4;
+    color: var(--font-color);
     cursor: pointer;
     display: inline;
+    text-decoration: none;
 
 }
 ul:hover{
