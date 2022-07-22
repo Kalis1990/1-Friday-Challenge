@@ -1,29 +1,7 @@
+@import "./styles/layout.css";
 header p{
     font-weight: 500;
     font-size: 36px;
-}
-.mainContent{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 320px;
-
-}
-.mainContent img{
-    display: block;
-    float: right;
-    
-}
-.textContent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.textContent p{
-    margin-top: 30px;
-    border: 2px solid #02577A;
-    border-radius: 25px;
-    padding: 30px 155px;
 }
 .hero{
     margin: 25px;
@@ -35,10 +13,13 @@ header p{
 .greetings{
     width: 40%;
     display: flex;
+    border-radius: 25px;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
+
+
 .clock{
     width: 40%;
     background-color: white;
@@ -56,6 +37,32 @@ header p{
     font-size: 26px;
     
 }
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+
+}
+.mainContent img{
+    display: block;
+    float: right;
+    height: 320px;
+    width: 95%;
+    
+}
+.textContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textJohn{
+    margin-top: 30px;
+    border: 2px solid #02577A;
+    border-radius: 25px;
+    padding: 30px 155px;
+}
+
 footer .bit{
     /* display: inline-block;
     position: absolute;
@@ -79,3 +86,54 @@ footer p{
     width: 346px;
     color: #02577A;
 }
+@media (max-width: 930px) {
+    .textContent{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .textJohn{
+        padding: 15px 105px;
+    }
+}
+@media (max-width: 830px) {
+    .hero{
+        width: 90%;
+        display: block;
+        
+    }
+    .textJohn{
+        padding: 20px 35px;
+    }
+    .greetings{
+        margin-left: 20%;
+        width: 70%;
+    }
+       
+    .clock{
+        margin-left: 20%;
+        width: 70%;
+    }
+
+}
+@media (max-width: 700px) {
+
+    .textJohn{
+        padding: 20px 45px;
+        width: 80%;
+    }
+    .greetings{
+        width: 70%;
+    }
+       
+    .clock{
+        width: 70%;
+    }
+    .textContent{
+        display: block;
+        margin-left: 30%;
+    }
+
+}
+
+

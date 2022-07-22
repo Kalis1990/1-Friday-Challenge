@@ -13,8 +13,7 @@ body * {
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100%;
-    position: fixed;
+    height: 100vh;
 }
 header{
     width: 100%;
@@ -22,11 +21,9 @@ header{
     flex-direction: column;
     align-items: center;
 }
-main{
-
+/* main{
     overflow: hidden;
-
-}
+} */
 footer{
     margin: 30px;
     display: flex;
