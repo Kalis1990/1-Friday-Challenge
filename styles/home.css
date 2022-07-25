@@ -1,7 +1,6 @@
-@import "./styles/layout.css";
 header p{
     font-weight: 500;
-    font-size: 36px;
+    font-size: 30px;
 }
 .hero{
     margin: 25px;
@@ -29,25 +28,18 @@ header p{
     align-items: center;
     padding: 20px;
 }
-.time{
-    color: #02577A;
 
-}
-.date{
-    font-size: 26px;
-    
-}
 .mainContent{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 320px;
+    height: 45%;
+    overflow: hidden;
 
 }
 .mainContent img{
     display: block;
     float: right;
-    height: 320px;
     width: 95%;
     
 }
@@ -83,7 +75,6 @@ footer p{
     left: 50%; */
     display: flex;
     justify-content: center;
-    width: 346px;
     color: #02577A;
 }
 @media (max-width: 930px) {
@@ -132,6 +123,9 @@ footer p{
     .textContent{
         display: block;
         margin-left: 30%;
+    }
+    .mainContent img{
+        height: 320px;
     }
 
 }
