@@ -7,10 +7,13 @@
     margin-bottom: 1.5em;
 }
  
-.text{
+.text {
     color: var(--font-color);
     cursor: pointer;
     display: none;
+}
+.text p{
+    color: var(--font-color);    
 }
 .text a{
     text-decoration: none;

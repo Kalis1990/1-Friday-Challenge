@@ -1,0 +1,153 @@
+.calendarAlign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.calendarContent{
+    width: 90%;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+
+}
+.languages{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7em;
+}
+.languages p{
+  color: #7777;
+  padding: 0.3em;
+}
+.scss, .react, .php{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    border-radius: 20px;
+}
+.scss hr{
+  width: 188px;
+  height: 20px;
+  background-color: #FC0000;
+  border-radius: 15px;
+  border: none;
+}
+.react hr{
+  width: 188px;
+  height: 20px;
+  background-color: #FCE300;
+  border-radius: 15px;
+  border: none;
+}
+.php hr{
+  width: 188px;
+  height: 20px;
+  background-color: #51FC00;
+  border-radius: 15px;
+  border: none;
+}
+.add{
+    background-color: #02577A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.calendarContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+
+.calendarr {
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.month {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  
+}
+
+.month i {
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.month h1 {
+  font-size: 2em;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0.5em;
+}
+.weekdays {
+  width: 80%;
+  display: flex;
+  padding: 0.8em;
+  border-bottom: 1px solid #7777;
+}
+
+.weekdays div {
+  width: calc(100%/7);
+  font-size: 1em;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.days {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.days div {
+  width: calc(100%/7);
+  justify-content: center;
+  display: flex;
+  padding: 0.8em;
+  
+}
+
+.days div:hover:not(.today) {
+  background-color: #7777;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  background-color: #02577A;
+  cursor: pointer;
+  border-radius: 50%;
+  color: #FFFFFF;
+}
