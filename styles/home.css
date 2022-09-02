@@ -108,16 +108,19 @@ footer p{
         width: 70%;
     }
     footer p{
-        margin-left: 15%;
+        margin-left: 20%;
     }
     footer .bit{
-        margin-left: 15%;
+        margin-left: 20%;
         width: 50%;
     }
 
 }
 @media (max-width: 700px) {
-
+    .hero{
+        margin-left: 20%;
+    }
+    
     .textJohn{
         padding: 20px 45px;
         width: 80%;
@@ -131,7 +134,7 @@ footer p{
     }
     .textContent{
         display: block;
-        margin-left: 30%;
+        margin-left: 35%;
     }
     .mainContent img{
         height: 320px;

@@ -4,7 +4,7 @@ function currentDate() {
     let currentDate = new Date();
     let Dayw = days[currentDate.getDay()];
     let Day = currentDate.getDate();
-    let Month = months[currentDate.getMonth()+1];
+    let Month = months[currentDate.getMonth()];
     let Year = currentDate.getFullYear();
     document.getElementById("date").innerText = Dayw +" , " + Month+ " , " + Day + " , " + Year;
   }
