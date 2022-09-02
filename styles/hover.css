@@ -28,5 +28,8 @@ ul:hover{
     ul:hover .text{
         display: none;
     }
+    .menu:hover{
+        background-color: transparent;
+    }
 
 }
