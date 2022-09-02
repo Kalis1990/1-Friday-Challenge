@@ -158,3 +158,22 @@
   }
 
 }
+@media (max-width: 400px) {
+
+  .month h1 {
+    font-size: 1em;
+  }
+  .month i {
+    font-size: 0.6em;
+  }
+  .weekdays {
+    padding: 0.4em;
+    font-size: 0.6em;
+    
+  }
+  .days div {
+    padding: 0.4em;
+    font-size: 0.6em;
+  }
+
+}
