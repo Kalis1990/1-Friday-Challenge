@@ -65,7 +65,6 @@
     cursor: pointer;
 }
 
-
 .calendarContainer{
   display: flex;
   flex-direction: column;
@@ -150,4 +149,12 @@
   cursor: pointer;
   border-radius: 50%;
   color: #FFFFFF;
+}
+@media (max-width: 800px) {
+
+  .calendarContent{
+      display: flex;
+      flex-direction: column-reverse;
+  }
+
 }

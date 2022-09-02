@@ -7,7 +7,7 @@
 }
 .menu:hover .icons{
     color:#02577A;
-    filter: invert(50%);
+    filter: invert(13%) sepia(87%) saturate(3896%) hue-rotate(184deg) brightness(97%) contrast(42%);   
 }
 ul:hover .text{
     color: var(--font-color);
@@ -16,6 +16,7 @@ ul:hover .text{
     text-decoration: none;
 
 }
+
 ul:hover{
     width: 200px;
     transition: 2s;    
